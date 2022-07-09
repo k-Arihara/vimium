@@ -293,8 +293,8 @@ const defaultKeyMappings = {
   "zL": "scrollToRight",
   "<c-e>": "scrollDown",
   "<c-y>": "scrollUp",
-  "d": "scrollPageDown",
-  "u": "scrollPageUp",
+  "<c-d>": "scrollPageDown",
+  "<c-u>": "scrollPageUp",
   "r": "reload",
   "yy": "copyCurrentUrl",
   "p": "openCopiedUrlInCurrentTab",
@@ -331,12 +331,12 @@ const defaultKeyMappings = {
   "gE": "Vomnibar.activateEditUrlInNewTab",
 
   // Navigating history
-  "H": "goBack",
-  "L": "goForward",
+  "J": "goBack",
+  "K": "goForward",
 
   // Manipulating tabs
-  "K": "nextTab",
-  "J": "previousTab",
+  "L": "nextTab",
+  "H": "previousTab",
   "gt": "nextTab",
   "gT": "previousTab",
   "^": "visitPreviousTab",
